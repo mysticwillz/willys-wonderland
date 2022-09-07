@@ -1,0 +1,198 @@
+/* !general reset */
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(15, 15, 63);
+}
+/* ! header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: rgb(15, 15, 63);
+    color: white;
+    position: sticky;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none ;
+    color: white;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart i{
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.cart p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 0 3px;
+    border-radius: 5px;
+
+}
+
+
+/* !main content section */
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    height: 500px;
+    max-height: 500px;
+    width: 250px;
+    border: none;
+    outline: none;
+    appearance: none;
+    border-radius: 15px;
+    padding: 10px 0px;
+    display: grid;
+    place-items: center;
+    transition: all 0.5s ease-in-out;
+    box-shadow:  -28px 27px 20px  rgba(80, 68, 68,0.2),
+      10px -19px 37px  rgba(255, 255, 255, 0.6),
+    inset 3px -3px 8px  rgba(54, 49, 49, 0.6),
+    inset -5px 5px 12px  rgba(255, 255, 255, 0.6);
+      
+}
+
+.container:hover{
+    transform: rotateX(20deg);
+   
+
+}
+
+/*! .container content  */
+
+img{
+    border-radius: 100px;
+    
+    box-shadow: -5px 5px 5px rgba(80, 68, 68,0.2),
+    5px -5px 5px  rgba(80, 68, 68,0.2);
+}
+.img{
+    border-radius: 100px;
+    filter: brightness(150%);
+    box-shadow: -5px 5px 5px rgba(80, 68, 68,0.2),
+    5px -5px 5px  rgba(80, 68, 68,0.2);
+}
+
+.name{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-shadow: 2px -2px 2px rgba(80, 68, 68,0.2);
+
+}
+.para{
+    padding: 0% 20px;
+}
+
+.color{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 20px;
+    align-items: center;
+    width: 100%;
+    text-shadow: 2px -2px 2px rgba(80, 68, 68,0.2);
+    margin: 0;
+    
+}
+.color p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    
+}
+
+.color div i{
+    font-size: 1rem;
+    margin: 0% 10px;
+   
+    
+}
+ #mac-one{
+   
+   color: rgba(15, 15, 63, 0.658);
+}
+ #mac-two{
+    color: rgba(18, 17, 95, 0.603); 
+}
+ #mac-three{
+    color: rgba(18, 17, 95, 0.233);      
+}
+
+.price-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 20px;
+    margin: 0;
+   
+    
+}
+
+.price{
+    font-weight: bolder;
+}
+
+.price-container div{
+    display: flex;
+    flex-direction: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+.item-count{
+    margin: 0% 15px;
+    font-weight: bolder;
+}
+
+/* ! button style */
+
+button{
+    width: 80%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(15, 15, 63);
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(157, 157, 163);
+    color: rgb(15, 15, 63);
+    font-weight: bold;
+    width: 82%;
+}
+.fa-regular{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+

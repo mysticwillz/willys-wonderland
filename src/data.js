@@ -1,0 +1,22 @@
+const myItems = [
+    {id:"itemOne",
+    img:"./apple/mac3.jpg" ,
+    price:2000,
+    name:"macbook pro 2022",
+    para:"Macbook pro did exactly what you said it does  Just what I was looking for"},
+    {id:"itemTwo",
+    price:1200,
+     img:"./apple/iphone1.jpg" ,
+     name:"Iphone 13 pro max",
+     para:"Iphone 13 pro max o did exactly what you said it does  Just what I was looking for"},
+
+    {id:"itemThree",
+     img:"./apple/watch1.jpg" ,
+     name:"Iwatch series 4",
+     price:450,
+     para:"Iwatch series 4 did exactly what you said it does  Just what I was looking for"},
+    {id:"itemfour",
+     img:"./apple/Airpod1.jpg" ,
+     name:"Airpod pro 5",
+     price:300,
+     para:"Airpod pro 5 did exactly what you said it does  Just what I was looking for"}];
