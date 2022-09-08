@@ -23,12 +23,12 @@ burger.addEventListener("click", ()=>{
 //? STORE SECTION
 
  const shopContainer = document.getElementById("shopContainer")
- console.log(shopContainer)
+
 
  let myStores = [{
     classname:"apple",
     name:"apple",
-    img:"homepage/hero-image2.jpg",
+    img:"https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png",
     para:"para graph is not a goof way to stay life so whatw ",
 
  },{
@@ -69,10 +69,12 @@ burger.addEventListener("click", ()=>{
  }
  generateStore()
 
- //! STORE SECTION 
+ //! review SECTION 
 
- let reviewContainer = document.querySelector(".review-container")
- console.log(reviewContainer)
+ let reviewContainer = document.querySelector(".review-container");
+ let right = document.getElementById("right")
+ let left = document.getElementById("left")
+ console.log(right)
 
  
    
