@@ -286,9 +286,14 @@ main{
 
 /* ! store section */
 
+.store-section{
+    height: 100vh;
+}
 
-
-
+.store-div-link{
+    text-decoration: none;
+    color: none;
+}
 .store-title{
     text-align: center;
     font-weight: bolder;
@@ -297,12 +302,14 @@ main{
     text-transform: capitalize;
 }
 
+
+
 #shopContainer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
+    
     width: 100%;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -369,7 +376,7 @@ main{
 }
 
 .jbl{
-    background-color: goldenrod;
+    background-color: rgb(223, 100, 18);
 
 }
 .jblname{
@@ -437,12 +444,11 @@ main{
 
 .service-div img{
 
-
-    padding-bottom: 40px;
+    
+    padding:0px 0px 40px 60px;
 
     border-radius: 50%;
-    border: 1px solid #0e7797;
-    background-color:#0e7797;
+  
 
 
 }
@@ -456,7 +462,7 @@ main{
     position: relative;
 }
 
-.fa-hand-point-right{
+#right{
     font-size: 5rem;
     position: absolute;
     top: 50%;
@@ -466,7 +472,7 @@ main{
     
     transform: translateY(-50%);
 }
-.fa-hand-point-left{
+#left{
     font-size: 5rem;
     position: absolute;
     right: 92%;
@@ -529,6 +535,7 @@ main{
     margin-left:300px;
     font-size: 4rem;
     color: #fafafa;
+    border: 1px solid black;
 }
 
 .review-card p{
