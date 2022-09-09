@@ -99,24 +99,50 @@ const appleStore = [
 
 
      const canonStore = [
-    {id:"itemOne",
+    {id:"canonOne",
     img:"./apple/mac3.jpg" ,
-    price:2000,
-    name:"macbook pro 2022",
-    para:"Macbook pro did exactly what you said it does  Just what I was looking for"},
-    {id:"itemTwo",
-    price:1200,
+    price:4500,
+    name:"EOS 5D MARK IV",
+    para:"EOS 5D MARK IV did exactly what you said it does  Just what I was looking for"},
+    
+    {id:"canonTwo",
+    price:7000,
      img:"./apple/iphone1.jpg" ,
-     name:"Iphone 13 pro max",
-     para:"Iphone 13 pro max o did exactly what you said it does  Just what I was looking for"},
+     name:"EOS R6 FULL-FRAME",
+     para:"EOS R6 FULL-FRAME o did exactly what you said it does  Just what I was looking for"},
 
-    {id:"itemThree",
+    {id:"canonThree",
      img:"./apple/watch1.jpg" ,
-     name:"Iwatch series 4",
-     price:450,
-     para:"Iwatch series 4 did exactly what you said it does  Just what I was looking for"},
-    {id:"itemfour",
+     name:"EOS 1300D 18MP",
+     price:5200,
+     para:"EOS 1300D 18MP did exactly what you said it does  Just what I was looking for"},
+    
+    {id:"canonFour",
+     img:"./apple/watch1.jpg" ,
+     name:"EOS 7D DSLR",
+     price:4700,
+     para:"EOS 7D DSLR did exactly what you said it does  Just what I was looking for"},
+    
+    {id:"canonFive",
+     img:"./apple/watch1.jpg" ,
+     name:"M50 MIRRORLESS",
+     price:2600,
+     para:"M50 MIRRORLESS did exactly what you said it does  Just what I was looking for"},
+    
+    {id:"canonSix",
+     img:"./apple/watch1.jpg" ,
+     name:"EOS 80D KIT",
+     price:3400,
+     para:"EOS 80D KIT did exactly what you said it does  Just what I was looking for"},
+    
+    {id:"canonSeven",
+     img:"./apple/watch1.jpg" ,
+     name:"EOS 2500D DSLR",
+     price:8750,
+     para:"EOS 2500D DSLR did exactly what you said it does  Just what I was looking for"},
+    
+     {id:"canonEight",
      img:"./apple/Airpod1.jpg" ,
-     name:"Airpod pro 5",
-     price:300,
-     para:"Airpod pro 5 did exactly what you said it does  Just what I was looking for"}];
+     name:"EOS 4000D BUZAN",
+     price:18000,
+     para:"EOS 4000D BUZAN did exactly what you said it does  Just what I was looking for"}];

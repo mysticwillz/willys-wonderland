@@ -1,6 +1,6 @@
-const appleDiv = document.getElementById("main")
-const jblDiv = document.getElementById("jbl")
-const canonDiv = document.getElementById("canon")
+const appleDiv = document.getElementById("apple")
+
+
 
 
      let basket = JSON.parse(localStorage.getItem("DATA")) ||[];

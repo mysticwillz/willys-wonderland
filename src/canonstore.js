@@ -1,6 +1,6 @@
 
-const jblDiv = document.getElementById("jbl")
 
+const canonDiv = document.getElementById("canon")
 
 
      let basket = JSON.parse(localStorage.getItem("DATA")) ||[];
@@ -45,7 +45,7 @@ let generateItems = (storeDiv, storeArray)=>{
 
 
    
-    generateItems(jblDiv,jblStore)
+    generateItems(canonDiv,canonStore)
    
 
 
