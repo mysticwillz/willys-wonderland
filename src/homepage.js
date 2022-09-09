@@ -38,13 +38,13 @@ burger.addEventListener("click", ()=>{
     jblname:"jblname",
     img:"https://www.pngkey.com/png/full/306-3060801_logo-jbl-png-jbl-png.png",
     para:"para graph is not a goof way to stay life so whatw ",
-    link:"",
+    link:"../markups/jblstore.html",
  },{
     classname:"canon",
     name:"Canon",
     img:"https://cdn.freebiesupply.com/images/large/2x/canon-inc.-logo-png-transparent.png",
     para:"para graph is not a goof way to stay life so whatw ",
-    link:"",
+    link:"../markups/canonstore.html",
  }]
 
  let generateStore = ()=>{

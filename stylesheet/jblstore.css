@@ -6,25 +6,25 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: #fafafa;
 
     font-family: 'Poppins', sans-serif;
-    color: rgb(15, 15, 63);
+    color: #fafafa;
 }
 /* ! header section */
 header{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: rgb(15, 15, 63);
-    color: white;
+    background-color: #704c4c;
+    color: #fafafa;
     position: sticky;
     width: 100%;
     
 }
 a{
     text-decoration: none ;
-    color: white;
+    color: #fafafa;
 }
 .cart{
     display: flex;
@@ -61,7 +61,7 @@ main{
 }
 .container{
     cursor: pointer;
-    background-color: white;
+    background-color: #704c4c;
     height: 500px;
     max-height: 500px;
     width: 250px;
@@ -139,10 +139,10 @@ img{
    color: rgba(15, 15, 63, 0.658);
 }
  #mac-two{
-    color: rgba(18, 17, 95, 0.603); 
+    color: rgba(27, 117, 139, 0.603); 
 }
  #mac-three{
-    color: rgba(18, 17, 95, 0.233);      
+    color: rgb(223, 100, 18);      
 }
 
 .price-container{
@@ -164,6 +164,7 @@ img{
     flex-direction: space-evenly;
     align-items: center;
     font-weight: bolder;
+    cursor: pointer;
     
 }
 .item-count{
@@ -174,23 +175,24 @@ img{
 /* ! button style */
 
 button{
-    cursor: pointer;
     width: 80%;
     border: none;
     border-radius: 25px;
     padding: 10px 0;
     font-size: 1rem;
-    color: white;
-    background-color: rgb(15, 15, 63);
+    color: #fafafa;
+    background-color: rgb(211, 94, 15);
     margin-bottom: 20px;
     transition: all 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(157, 157, 163);
-    color: rgb(15, 15, 63);
+    background-color: rgb(100, 25, 25);
+    color: #fafafa;
     font-weight: bold;
     width: 82%;
+    cursor: pointer;
 }
 .fa-regular{
     color: red;
@@ -203,25 +205,25 @@ button:hover{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    cursor: pointer;
 }
 
 .linkbuttons button{
-    cursor: pointer;
     width: 100px;
     height: 40px;
     border: none;
     border-radius: 5px;
     padding: 10px 0;
     font-size: 1rem;
-    color: white;
-    background-color: rgb(15, 15, 63);
+    color: #fafafa;
+    background-color: rgb(223, 100, 18);
     margin: 5px;
     
     transition: all 0.5s ease-in-out;
 }
 .linkbuttons button:hover{
     background-color: rgb(100, 25, 25);
-    color: rgb(15, 15, 63);
+    color: rgb(223, 100, 18);
     font-weight: normal;   
 
 }
@@ -234,7 +236,7 @@ button:hover{
     width: 150px;
 }
 .linkbuttons .back-to-home i{
-    color: white;
+    color: #fafafa;
 }
 
 

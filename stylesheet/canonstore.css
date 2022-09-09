@@ -9,14 +9,14 @@ body{
     background-color: white;
 
     font-family: 'Poppins', sans-serif;
-    color: rgb(15, 15, 63);
+    color: rgb(117, 20, 20);
 }
 /* ! header section */
 header{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: rgb(15, 15, 63);
+    background-color: rgb(117, 20, 20);
     color: white;
     position: sticky;
     width: 100%;
@@ -120,11 +120,12 @@ img{
     width: 100%;
     text-shadow: 2px -2px 2px rgba(80, 68, 68,0.2);
     margin: 0;
-    
+    color: rgb(56, 16, 16);
 }
 .color p{
     font-size: 1.3rem;
     font-weight: bolder;
+    color: rgb(56, 16, 16);
     
 }
 
@@ -139,10 +140,10 @@ img{
    color: rgba(15, 15, 63, 0.658);
 }
  #mac-two{
-    color: rgba(18, 17, 95, 0.603); 
+    color: rgba(180, 21, 146, 0.603); 
 }
  #mac-three{
-    color: rgba(18, 17, 95, 0.233);      
+    color: rgba(8, 129, 38, 0.233);      
 }
 
 .price-container{
@@ -181,14 +182,14 @@ button{
     padding: 10px 0;
     font-size: 1rem;
     color: white;
-    background-color: rgb(15, 15, 63);
+    background-color:rgb(117, 20, 20);
     margin-bottom: 20px;
     transition: all 0.5s ease-in-out;
 }
 
 button:hover{
-    background-color: rgb(157, 157, 163);
-    color: rgb(15, 15, 63);
+    background-color: rgb(56, 16, 16);
+    color:white;
     font-weight: bold;
     width: 82%;
 }
@@ -214,14 +215,14 @@ button:hover{
     padding: 10px 0;
     font-size: 1rem;
     color: white;
-    background-color: rgb(15, 15, 63);
+    background-color: rgb(117, 20, 20);
     margin: 5px;
     
     transition: all 0.5s ease-in-out;
 }
 .linkbuttons button:hover{
-    background-color: rgb(100, 25, 25);
-    color: rgb(15, 15, 63);
+    background-color: rgb(56, 16, 16);
+    color: rgb(117, 20, 20);
     font-weight: normal;   
 
 }
