@@ -27,10 +27,10 @@ burger.addEventListener("click", ()=>{
 
  let myStores = [{
     classname:"apple",
-    name:"apple",
+    name:"Apple",
     img:"https://cdn.freebiesupply.com/images/large/2x/apple-logo-transparent.png",
     para:"para graph is not a goof way to stay life so whatw ",
-    link:"",
+    link:"../markups/applestore.html",
 
  },{
     classname:"jbl",
@@ -41,7 +41,7 @@ burger.addEventListener("click", ()=>{
     link:"",
  },{
     classname:"canon",
-    name:"canon",
+    name:"Canon",
     img:"https://cdn.freebiesupply.com/images/large/2x/canon-inc.-logo-png-transparent.png",
     para:"para graph is not a goof way to stay life so whatw ",
     link:"",
@@ -52,7 +52,7 @@ burger.addEventListener("click", ()=>{
         const {classname, name,link, img, para, jblname} = x 
         return `
         <a href="${link}" class="store-div-link"> <div class="store-card">
-                <img src=${img} alt="" class="shop-img" width="200">
+                <img src=${img} alt="" class="shop-img" width="180" height="200">
                 <div class="shop-name ${jblname}">${name}</div>
                 <p>${para}</p>
                 <div class="five-star">
@@ -130,36 +130,27 @@ let index = 0
             <i class="fa-solid fa-quote-left"></i>  
     
 </div>
-<img src=${img} alt="" width="300px">
+<img src=${img} alt="" width="300px" height="350px">
 
     `
+   reviewContainer.innerHTML=item;
+  
 
-    reviewContainer.innerHTML=item
-
- };
-
- changeReview()
-
- right.addEventListener("click", ()=>{
-    
-    
-    if(index < reviews.length -1){
+    if (index < reviews.length-1){
         index++
     }
+    else {index = 0}
+    console.log("function is functtional")
+    
+ };
 
-    else(index = 0)
+ setInterval(()=>{
     changeReview()
- });
+ },7000)
 
- left.addEventListener("click", ()=>{
-   
-    if(index ===0){
-        index = reviews.length -1
-    }
+ 
 
-    else{index--}
-    changeReview()
- })
+
 
  
    
