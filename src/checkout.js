@@ -15,12 +15,11 @@ let cartCount = ()=>{
    }
    cartCount()
 
-   let generateCartItems = ()=>{
-    if(basket.length !==0){
-      return  shoppingCart.innerHTML = basket.map((x)=>{
+   let genCheckout = (arrayStore)=>{
+    return  shoppingCart.innerHTML = basket.map((x)=>{
 
         const {id,item} = x
-        let search = myItems.find ((y)=>y.id===id) ||[]
+        let search = arrayStore.find ((y)=>y.id===id) ||[]
     
         return ` 
         <div class="cart-item">
@@ -51,6 +50,14 @@ let cartCount = ()=>{
         
         `
       }).join('');
+   }
+
+   let generateCartItems = ()=>{
+    if(basket.length !==0){
+        genCheckout(appleStore)
+        
+       
+    
     }
     else{
         shoppingCart.innerHTML=``,
@@ -65,6 +72,49 @@ let cartCount = ()=>{
     }
    }
    generateCartItems()
+
+   let generateCanonItems = ()=>{
+    if(basket.length !==0){
+        
+        genCheckout(canonStore)
+        
+       
+    
+    }
+    else{
+        shoppingCart.innerHTML=``,
+        label.innerHTML=`
+         <h2>cart is empty</h2>
+         <a href="v.html"> <button class="Homebtn">
+         back to home </button><a/>       
+         
+         
+         `
+         console.log(label.innerHTML)
+    }
+   }
+   generateCanonItems()
+   generateJblItems()
+   let generateJblItems = ()=>{
+    if(basket.length !==0){
+       
+        genCheckout(jblStore)
+       
+    
+    }
+    else{
+        shoppingCart.innerHTML=``,
+        label.innerHTML=`
+         <h2>cart is empty</h2>
+         <a href="v.html"> <button class="Homebtn">
+         back to home </button><a/>       
+         
+         
+         `
+         console.log(label.innerHTML)
+    }
+   }
+   generateJblItems()
 
    
 
@@ -91,6 +141,8 @@ let increment = (id)=>{
     updatecount(specificItem.id)
 
     generateCartItems()
+    generateCanonItems()
+    generateJblItems()
 }
 
 let addToTask = (id)=>{
@@ -109,6 +161,8 @@ let decrement = (id)=>{
 
    basket =  basket.filter((x)=> x.item !==0);
    generateCartItems()
+   generateCanonItems()
+   generateJblItems()
    
 
 
@@ -135,6 +189,8 @@ let removeItem =(id) =>{
     let specificId = id
     basket = basket.filter((x)=>x.id !== specificId.id)
     generateCartItems()
+    generateCanonItems()
+    generateJblItems()
     totalAmount()
     cartCount()
     localStorage.setItem("DATA", JSON.stringify(basket))
@@ -146,6 +202,8 @@ let removeItem =(id) =>{
 let clearCart = ()=>{
     basket = [];
     generateCartItems()
+    generateCanonItems()
+    generateJblItems()
     cartCount()
     localStorage.setItem("DATA", JSON.stringify(basket))
 }

@@ -122,6 +122,7 @@ nav{
 
 }
 
+
 @media screen and (max-width:768px){
 
     .burger{
@@ -159,6 +160,28 @@ nav{
 
 
 
+}
+
+
+@media screen and (max-width:540px){
+    
+    .nav-links {
+        padding: 0 10px;
+        font-size: 1rem;
+        position:absolute;
+        right: 0px;
+        height: 400px;
+        top: 11vh;
+        background-color: #0e7797;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in-out;
+
+    }
 }
 
 .nav-active{
@@ -298,6 +321,7 @@ main{
 @media screen and (max-width:768px){
     main{
         height: 500px;
+        overflow-x: hidden;
         
     }
     .text h2{
@@ -309,11 +333,26 @@ main{
     }
 }
 
+@media screen and (max-width:540px){
+    main{
+        height: 500px;
+        overflow-x: hidden;
+        
+    }
+    .text h2{
+        font-size:2.4rem ;
+    }
+
+    .text p{
+        font-size: 14px;
+    }
+}
+
 
 /* ? STORE SECTION */
 
 .store-section{
-    height: 100vh;
+    
     
     height: 100vh;
     width: 100%;
@@ -427,7 +466,7 @@ main{
 @media screen and (max-width:912px){
 
     .store-section{
-        height:50vh;
+        height:auto;
         
     }
 
@@ -435,6 +474,17 @@ main{
 
 @media screen and (max-width:768px){
     .store-section{
+        height: auto;
+        
+    }
+}
+
+@media screen and (max-width:540px){
+    #shopContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
         
     }
 }
@@ -494,21 +544,46 @@ main{
 
 }
 
-.service-div img{
+
+
+@media (max-width:1024px){
+  .service-text{
+    width: auto;
+  }  
+  .service-div img{
+    width: 300px;
+  }
+
 
     
-    padding:0px 0px 40px 60px;
-
-    border-radius: 50%;
-  
-
-
 }
 
 @media (max-width:912px){
     .service-div{
-        height: 60vh;
+        height: 80vh;
+        padding-bottom: 30px;
     }
+}
+
+@media screen and (max-width:768px){
+    .service-div{
+        height: auto;
+        width: auto;
+    }
+    .service-text{
+        width: auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width:540px){
+    
+.service-text{
+    height: auto;
+}
+
 }
 
 
@@ -527,7 +602,7 @@ main{
     justify-content: space-evenly;
     width: 100%;
      
-    height: 100%;
+    height: 100vh;
     margin-top: 40px;
     flex-wrap: wrap;
     gap: 20px;
@@ -571,10 +646,11 @@ main{
 }
 
 .fa-quote-right{
-    margin-left:300px;
+    
     font-size: 4rem;
-    color: #fafafa;
+    color: #000;
     border: 1px solid black;
+   
 }
 
 .review-card p{
@@ -589,11 +665,67 @@ main{
 @media screen and (max-width:912px){
 
     .review-section{
-        height:50vh;
-        
+        height:auto;
+        padding-bottom: 30px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    .review-container{
+        width: auto;
     }
 
 }
+
+@media screen and (max-width:768px){
+    .review-section{
+        height: auto;
+    }
+
+    .review-card{
+        width: auto;
+    }
+    .review-container{
+        width: auto;
+    }
+
+    
+}
+@media screen and (max-width:540px){
+    .review-section{
+        height: auto;
+    }
+
+    .review-container img{
+        width: 200px;
+        height: fit-content;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width:393px){
+    .review-card{
+        width: 300px;
+    }
+
+    
+
+.fa-quote-left{ 
+    margin-right: 220px;
+    font-size:3rem;
+    
+    color: #fafafa;
+}
+
+.fa-quote-right{
+    margin-left:220px;
+    font-size: 3rem;
+    color: #fafafa;
+    border: 1px solid black;
+}
+}
+
 
 
 
@@ -726,6 +858,82 @@ input{
     background-color: navy;
 }
 
+@media screen and (max-width:912px){
+    .section-contact-us{
+        height: 900px;
+        width: auto;
+    }
+
+    
+.socials {
+    position: absolute;
+    left: 0%;
+    bottom: 40%;
+  
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 10px;
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width:768px){
+    .section-contact-us{
+        height: auto;
+        width: auto;
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+
+    .contact-container{
+        padding: 20px;
+
+    
+        
+        
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        height: fit-content;
+        
+       
+    }
+
+
+    address{
+        padding-bottom: 50px;
+    }
+
+   .contact-us p{
+    word-wrap: break-word;
+   }
+}
+
+
+@media screen and (max-width:540px){
+    .socials {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+      
+        display: flex;
+        flex-direction: row;
+        
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width:540px){
+        
+    form{
+        width: 350px;
+    }
+}
 
 
 

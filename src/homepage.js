@@ -116,19 +116,22 @@ burger.addEventListener("click", ()=>{
     img: "https://www.pngall.com/wp-content/uploads/2016/05/Man-Download-PNG.png",
  }]
 
+ 
 
 let index = 0
  function changeReview(){
     const {p, nameEl,img} = reviews[index]
     let item = `
     <div  class="review-card">
-               
-               
     <i class="fa-solid fa-quote-left"></i>
+
      <p >${p} </p>
+
+                  
          <h3>${nameEl}</h3
-            <i class="fa-solid fa-quote-left"></i>  
-    
+         
+     <i class="fa-solid fa-quote-right"></i>
+
 </div>
 <img src=${img} alt="" width="300px" height="350px">
 
@@ -143,6 +146,7 @@ let index = 0
     console.log("function is functtional")
     
  };
+ changeReview()
 
  setInterval(()=>{
     changeReview()
