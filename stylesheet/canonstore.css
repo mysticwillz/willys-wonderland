@@ -232,7 +232,8 @@ button:hover{
 }
 
 .linkbuttons .back-to-home{
-    width: 150px;
+    max-width: 150px;
+    height: auto;
 }
 .linkbuttons .back-to-home i{
     color: white;
