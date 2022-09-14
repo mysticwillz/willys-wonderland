@@ -143,7 +143,7 @@ let index = 0
         index++
     }
     else {index = 0}
-    console.log("function is functtional")
+    
     
  };
  changeReview()
@@ -153,6 +153,20 @@ let index = 0
  },7000)
 
  
+ // BACK TO TOP
+
+ const backToTop =document.querySelector(".back-top i")
+ 
+ window.addEventListener("scroll", ()=>{
+   let webHeight = window.pageYOffset
+    backToTop.style.opacity="0"
+   if(webHeight>500){
+      backToTop.style.opacity="1"
+   }
+   else{backToTop.style.opacity="0"}
+
+   
+ });
 
 
 

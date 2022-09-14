@@ -22,6 +22,12 @@ body{
 
 }
 
+ nav{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -667,6 +673,7 @@ main{
     .review-section{
         height:auto;
         padding-bottom: 30px;
+        width: auto;
     }
 
     body{
@@ -681,6 +688,7 @@ main{
 @media screen and (max-width:768px){
     .review-section{
         height: auto;
+        width: auto;
     }
 
     .review-card{
@@ -695,6 +703,7 @@ main{
 @media screen and (max-width:540px){
     .review-section{
         height: auto;
+        width: auto;
     }
 
     .review-container img{
@@ -906,7 +915,7 @@ input{
         padding-bottom: 50px;
     }
 
-   .contact-us p{
+   .firstt{
     word-wrap: break-word;
    }
 }
@@ -933,6 +942,26 @@ input{
     form{
         width: 350px;
     }
+}
+
+
+.back-top i{
+    font-size: 2.5rem;
+    position: fixed;
+    top: 80vh;
+    right: 30px;
+    cursor: pointer;
+    color: #0072b1;
+    
+}
+
+.back-top i:hover{
+    transform: translateY(-5%);
+}
+
+back-top a{
+    text-decoration: none;
+    color: #0072b1;
 }
 
 
