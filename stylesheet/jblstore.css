@@ -68,7 +68,7 @@ main{
     border: none;
     outline: none;
     appearance: none;
-    border-radius: 15px;
+    border-radius: 50px;
     padding: 10px 0px;
     display: grid;
     place-items: center;
@@ -87,9 +87,9 @@ main{
 }
 
 /*! .container content  */
-
+ 
 img{
-    border-radius: 100px;
+    border-radius: 50px;
     
     box-shadow: -5px 5px 5px rgba(80, 68, 68,0.2),
     5px -5px 5px  rgba(80, 68, 68,0.2);
@@ -99,7 +99,7 @@ img{
     filter: brightness(150%);
     box-shadow: -5px 5px 5px rgba(80, 68, 68,0.2),
     5px -5px 5px  rgba(80, 68, 68,0.2);
-}
+} 
 
 .name{
     margin: 0;

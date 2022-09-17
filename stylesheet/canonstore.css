@@ -87,7 +87,7 @@ main{
 }
 
 /*! .container content  */
-
+/* 
 img{
     border-radius: 100px;
     
@@ -99,7 +99,7 @@ img{
     filter: brightness(150%);
     box-shadow: -5px 5px 5px rgba(80, 68, 68,0.2),
     5px -5px 5px  rgba(80, 68, 68,0.2);
-}
+} */
 
 .name{
     margin: 0;

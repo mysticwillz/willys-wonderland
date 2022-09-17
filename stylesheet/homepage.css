@@ -223,7 +223,7 @@ nav{
 
 main{
     background: url("../homepage/hero-image.jpg");
-    height: 84.7vh;
+    height: 100vh;
     width: 100%;
     background-position:  center;
     background-size: cover;
